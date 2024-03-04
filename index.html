@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="style.css"> <!-- Adjust the path accordingly -->
+</head>
+
+<body>
+    <header>
+        <img src="TECHTRIO-removebg-preview.png" alt="Your Logo">
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="meetourteam.html">Meet our team</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Your hero section goes here -->
+
+</body>
+
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Your existing head content -->
+    <style>
+        /* Your existing styles */
+
+        .hero-section {
+            position: relative;
+            text-align: center;
+            color: rgb(3, 13, 68);
+            overflow: hidden;
+        }
+
+        .hero-section img {
+            width: 100%;
+            max-height: 400px;
+            /* Adjust the height as needed */
+            object-fit: cover;
+        }
+
+        .hero-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+
+
+        .feedback-section {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #f2f2f2;
+        }
+
+        .client-feedback-heading {
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #2f98aa;
+            /* Blue color */
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(104, 101, 101, 0.3);
+            /* Add a subtle text shadow for effect */
+        }
+
+        .client-box {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            gap: 20px;
+        }
+
+        .client-feedback {
+            flex: 1;
+            max-width: 200px;
+            /* Set maximum width for the client boxes */
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #fff;
+            /* Set background color to white */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            /* Add a subtle box shadow for depth */
+            transition: transform 0.3s ease-in-out;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .client-feedback:hover {
+            transform: scale(1.05);
+            /* Scale up on hover for a subtle effect */
+        }
+
+        .client-box img {
+            max-width: 50%;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .another-section {
+            background-color: #5fa7a7;
+            padding: 50px;
+            color: #ffffff;
+            /* Dark blue text color */
+            text-align: center;
+        }
+
+        .another-section p {
+            font-style: italic;
+            /* Make the text italic */
+            font-weight: bold;
+            /* Add some boldness for emphasis */
+            color: #2a6496;
+            /* Darker blue text color */
+            font-size: 18px;
+            /* Adjust the font size as needed */
+            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+            /* Add a subtle text shadow for effect */
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .another-section p:hover {
+            transform: scale(1.1);
+            /* Scale up on hover for a subtle effect */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Your existing HTML -->
+
+    <section class="hero-section">
+        <img src="Teal Modern Business Agent Desktop Mockup (7).png" alt="Agency Image">
+        <div class="hero-content">
+        </div>
+    </section>
+    </p>
+    <section class="another-section">
+        <p>Our Smart Solutions Make Your Idea Come True</p>
+        <h1>PAKISTAN’S LEADING IT COMPANY</h1>
+        <p1>Tech-Trio – we are a group of professional, experienced, and enthusiastic IT individuals who are committed
+            to creating a better society through the influence of Information Technology. We are one of the Top software
+            houses in Hyderabad always looking to adapt innovative ways to deliver the best solutions for our clients.
+        </p1>
+    </section>
+    <!-- Your existing HTML -->
+
+    <section class="feedback-section">
+        <h2 class="client-feedback-heading">Client Feedback</h2>
+        <div class="client-box">
+            <div class="client-feedback">
+                <img src="CLIENT1.jpg" alt="CLIENT1">
+                <p>"Excellent service! TechTrio transformed our vision into reality."</p>
+                <p>- Thomas Casic</p>
+            </div>
+
+            <div class="client-feedback">
+                <img src="CLIENT2.webp" alt="Client 2">
+                <p>"Professionalism and creativity at its best. Highly recommended!"</p>
+                <p>- David Den</p>
+            </div>
+
+            <div class="client-feedback">
+                <img src="CLIENT3.avif" alt="Client 3">
+                <p>"TechTrio exceeded our expectations. Fantastic work!"</p>
+                <p>- James Ronin</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Your existing HTML -->
+</body>
+
+</html>
+
+
+
+<!-- PACKAGES -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Your existing head content -->
+    <style>
+        /* Your existing styles */
+
+        .plans-section {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #f2f2f2;
+        }
+
+        .packages-heading {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .plans-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .plan {
+            flex: 0 0 calc(24% - 20px);
+            /* Adjusted width to accommodate 4 plans in one row */
+            max-width: 300px;
+            margin: 0 10px 20px 10px;
+            /* Adjusted margin to create gap between plans */
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .plan:hover {
+            transform: scale(1.05);
+        }
+
+        .plan h3 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .plan p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .price {
+            font-size: 28px;
+            color: #5fa7a7;
+
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Your existing HTML -->
+
+    <section class="plans-section">
+        <h2 class="packages-heading">Want to proceed with packages?</h2>
+        <div class="plans-container">
+            <div class="plan">
+                <h3>Starter</h3>
+                <p>Dip your toes into the digital ocean with a basic website setup. Perfect for beginners!</p>
+                <div class="price">$499/one-time</div>
+            </div>
+
+            <div class="plan">
+                <h3>Pro</h3>
+                <p>Level up with advanced features and custom design. Ideal for businesses ready to soar!</p>
+                <div class="price">$999/one-time</div>
+            </div>
+
+            <div class="plan">
+                <h3>Premium</h3>
+                <p>Unleash the full potential of your online presence with premium services. Go big or go home!</p>
+                <div class="price">$1999/one-time</div>
+            </div>
+
+
+        </div>
+    </section>
+
+</body>
+
+</html>
+
+
+<!-- Your existing HTML -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 50px;
+        }
+
+        .stat-container {
+            display: flex;
+            justify-content: space-around;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .stat-item {
+            flex: 1;
+        }
+
+        .stat-number {
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: #666666;
+        }
+    </style>
+    <title>Company Stats</title>
+</head>
+
+<body>
+    <div class="stat-container">
+        <div class="stat-item">
+            <div class="stat-number">100K+</div>
+            <div class="stat-label">Happy Clients</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">50K+</div>
+            <div class="stat-label">Lines of Code</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">1M+</div>
+            <div class="stat-label">Pixels Perfected</div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!-- Get in Touch Now -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        footer {
+            background-color: #235252;
+            /* Theme color */
+            color: #fff;
+            padding: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .web-marketing,
+        .page-details,
+        .contact-info {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .web-marketing h4,
+        .page-details h4 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+
+        .privacy-statement {
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        .contact-info p {
+            font-size: 14px;
+            line-height: 1.5;
+            margin: 5px 0;
+        }
+
+        .page-details h4 {
+            font-size: 14px;
+            margin: 5px 0;
+            color: #fff;
+        }
+
+        .page-details p {
+            font-size: 14px;
+            margin: 5px 0;
+            color: #fff;
+            cursor: pointer;
+            text-decoration: none;
+            transition: text-decoration 0.3s ease;
+        }
+
+        .page-details p:hover {
+            text-decoration: underline;
+        }
+
+        .social-icons img {
+            width: 130px;
+            /* Adjust the size as needed */
+            margin-right: 20px;
+        }
+
+        .social-icons {
+            display: flex;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Your existing HTML content -->
+
+    <footer>
+        <div class="web-marketing">
+            <h4>Join 16,000+ people who get our web marketing tips twice a month</h4>
+            <p class="privacy-statement">By joining us, you agree to our Privacy Policy.</p>
+        </div>
+
+        <div class="contact-info">
+            <p>Contact Us:</p>
+            <p>Email: info@TechTrio.com</p>
+            <p>Phone: +1 (555) 123-4567</p>
+        </div>
+
+        <div class="page-details">
+            <h4>Pages:</h4>
+            <p><a href="index.html" style="color: #fff; text-decoration: none;">Home</a></p>
+            <p><a href="about.html" style="color: #fff; text-decoration: none;">About Us</a></p>
+            <p><a href="services.html" style="color: #fff; text-decoration: none;">Services</a></p>
+            <p><a href="meetourteam.html" style="color: #fff; text-decoration: none;">Meet our Team</a></p>
+            <p><a href="contact.html" style="color: #fff; text-decoration: none;">Contact Us</a></p>
+        </div>
+
+        <div class="social-icons">
+            <img src="image-removebg-preview (73).png">
+        </div>
+    </footer>
+
+</body>
+
+</html>
